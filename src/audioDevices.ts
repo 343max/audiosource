@@ -5,7 +5,7 @@ export type Device = { name: string; type: DeviceType; id: string; uid: string }
 
 type JSONType = unknown;
 
-export const switchAudioSource = (bin = "/opt/homebrew/bin/SwitchAudioSource") => {
+export const audioDevices = (bin = "/opt/homebrew/bin/SwitchAudioSource") => {
   const runCommand = async (params: string[], type: DeviceType) =>
     await execa(bin, [...params, "-t", type, "-f", "json"]);
 

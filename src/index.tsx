@@ -1,5 +1,5 @@
 import { List, Icon, ActionPanel, Action } from "@raycast/api";
-import { Device, DeviceType, switchAudioSource } from "./switchAudioSource";
+import { Device, DeviceType, audioDevices } from "./audioDevices";
 import React from "react";
 
 type State = {
@@ -12,7 +12,7 @@ type State = {
 export default function Command() {
   const [state, setState] = React.useState<State | undefined>();
 
-  const { selectedDevice, allDevices, selectDevice } = switchAudioSource();
+  const { selectedDevice, allDevices, selectDevice } = audioDevices();
 
   React.useEffect(() => {
     (async () => {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "audiosource",
-  "title": "AudioSource",
+  "title": "Select Audio Device",
   "description": "Switch Audio Input & Output",
   "icon": "command-icon.png",
   "author": "343max",
@@ -12,8 +12,8 @@
   "commands": [
     {
       "name": "index",
-      "title": "Switch Audio Input or Output",
-      "description": "use `SwitchAudioSource` to switch audio source ",
+      "title": "Select Audio Device",
+      "description": "use `SwitchAudioSource` bin to select audio device",
       "mode": "view"
     }
   ],
