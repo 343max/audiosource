@@ -1,3 +1,3 @@
-# AudioSource Changelog
+# Select Audio Device Changelog
 
-## [Initial Version] - 2022-12-16
+## [Initial Version] - 2022-12-17
