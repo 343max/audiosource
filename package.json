@@ -13,6 +13,7 @@
     {
       "name": "index",
       "title": "Select Audio Device",
+      "subtitle": "Select Microphone and Speakers",
       "description": "use `SwitchAudioSource` bin to select audio device",
       "mode": "view"
     }
